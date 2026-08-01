@@ -1,4 +1,4 @@
-# IoT Based Patient Health Monitoring System using LPC2129
+# Smart Healthcare Patient Health Monitoring and Emergency Assistance System using LPC2129
 
 An IoT-based patient health monitoring system developed using the **LPC2129 (ARM7)** microcontroller. The project continuously monitors vital health parameters such as **Heart Rate**, **SpO2**, **Body Temperature**, and **Distance**, displays them on an LCD, and transmits the collected data over Wi-Fi for remote monitoring.
 
