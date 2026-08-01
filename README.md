@@ -146,10 +146,10 @@ The system continuously performs the following operations:
 
 ---
 
-## Author
+## Contributors
 
-**Keshav Babu**
+- Keshav Babu (@keshavbabu)
 
-Embedded Software Engineer
+- Made Vikas Stalin (@stalinmade)
 
-LinkedIn: https://www.linkedin.com/in/keshav-babu-766700230/
+- TANMAYE M S 
