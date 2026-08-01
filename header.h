@@ -324,3 +324,7 @@ void DHT11_init(void);
 unsigned char DHT11_ReadTemperature(void);
 void uart0_tx_string(char *p);
 
+#define RED (1<<17)
+#define GREEN (1<<19)
+#define DIST_THRESHOLD 15
+

@@ -10,6 +10,7 @@
       <TargetName>Target 1</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
+      <pCCUsed>5060750::V5.06 update 6 (build 750)::ARMCC</pCCUsed>
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -456,29 +457,34 @@
               <FilePath>.\header.h</FilePath>
             </File>
             <File>
-              <FileName>dth11.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\final_pro\dth11.c</FilePath>
-            </File>
-            <File>
-              <FileName>ultra.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\final_pro\ultra.c</FilePath>
-            </File>
-            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\final_pro\delay.c</FilePath>
+              <FilePath>.\delay.c</FilePath>
             </File>
             <File>
-              <FileName>interrupt.c</FileName>
+              <FileName>dth11.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\final_pro\interrupt.c</FilePath>
+              <FilePath>.\dth11.c</FilePath>
             </File>
             <File>
               <FileName>handler.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\final_pro\handler.c</FilePath>
+              <FilePath>.\handler.c</FilePath>
+            </File>
+            <File>
+              <FileName>interrupt.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\interrupt.c</FilePath>
+            </File>
+            <File>
+              <FileName>spo2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\spo2.c</FilePath>
+            </File>
+            <File>
+              <FileName>ultra.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ultra.c</FilePath>
             </File>
           </Files>
         </Group>
