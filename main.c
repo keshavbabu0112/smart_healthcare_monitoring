@@ -151,7 +151,7 @@ uart0_tx_string("\r\n Started \r\n "	);
 
 							uart0_tx_string("\r\n HR =  "	);
 
-							uart0_intiger(heart_rate); //printf("HR = %d", heart_rate);
+							uart0_integer(heart_rate); //printf("HR = %d", heart_rate);
 
 							lcd_cmd(0x80);
 
@@ -176,7 +176,7 @@ uart0_tx_string("\r\n Started \r\n "	);
 						if(dis)
 						{
 						    uart0_tx_string("   saline =  "	);
-							uart0_intiger(dis); //printf("SpO2 = %.1f", spo2);
+							uart0_integer(dis); //printf("SpO2 = %.1f", spo2);
 							uart0_tx_string("ml");
 							lcd_cmd(0xC0);
 							lcd_str("saline: ");
@@ -185,7 +185,7 @@ uart0_tx_string("\r\n Started \r\n "	);
 						if(temp)
 						{
 						    uart0_tx_string("  temp =  "	);
-							uart0_intiger(temp); //printf("SpO2 = %.1f", spo2);
+							uart0_integer(temp); //printf("SpO2 = %.1f", spo2);
 							uart0_tx_string(".c");
 							lcd_cmd(0xC0);
 							lcd_str("temp: ");

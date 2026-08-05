@@ -308,7 +308,7 @@ void uart0_float(float num)
 
 		
 
-void uart0_intiger(s32 num)
+void uart0_integer(s32 num)
 
 {
 
